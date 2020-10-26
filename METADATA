@@ -7,13 +7,13 @@ third_party {
   }
   url {
     type: ARCHIVE
-    value: "https://static.crates.io/crates/regex-syntax/regex-syntax-0.6.18.crate"
+    value: "https://static.crates.io/crates/regex-syntax/regex-syntax-0.6.20.crate"
   }
-  version: "0.6.18"
+  version: "0.6.20"
   license_type: NOTICE
   last_upgrade_date {
     year: 2020
-    month: 5
-    day: 28
+    month: 10
+    day: 26
   }
 }
