@@ -24,6 +24,9 @@ rust_test_host {
     srcs: ["src/lib.rs"],
     test_suites: ["general-tests"],
     auto_gen_config: true,
+    test_options: {
+        unit_test: true,
+    },
     edition: "2015",
     features: [
         "default",
