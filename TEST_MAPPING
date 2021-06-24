@@ -5,13 +5,13 @@
       "name": "keystore2_test"
     },
     {
+      "name": "libsqlite3-sys_device_test_src_lib"
+    },
+    {
       "name": "regex-syntax_device_test_src_lib"
     },
     {
       "name": "vpnprofilestore_test"
-    },
-    {
-      "name": "libsqlite3-sys_device_test_src_lib"
     }
   ]
 }

@@ -43,7 +43,7 @@ rust_library {
     host_supported: true,
     crate_name: "regex_syntax",
     srcs: ["src/lib.rs"],
-    edition: "2015",
+    edition: "2018",
     features: [
         "default",
         "unicode",
@@ -63,7 +63,7 @@ rust_defaults {
     srcs: ["src/lib.rs"],
     test_suites: ["general-tests"],
     auto_gen_config: true,
-    edition: "2015",
+    edition: "2018",
     features: [
         "default",
         "unicode",
