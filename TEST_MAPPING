@@ -11,7 +11,7 @@
       "name": "regex-syntax_device_test_src_lib"
     },
     {
-      "name": "vpnprofilestore_test"
+      "name": "legacykeystore_test"
     }
   ]
 }
