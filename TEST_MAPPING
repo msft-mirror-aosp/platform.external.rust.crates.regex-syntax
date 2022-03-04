@@ -32,6 +32,9 @@
     },
     {
       "name": "regex-syntax_test_src_lib"
+    },
+    {
+      "name": "virtualizationservice_device_test"
     }
   ],
   "presubmit-rust": [
@@ -43,6 +46,9 @@
     },
     {
       "name": "regex-syntax_test_src_lib"
+    },
+    {
+      "name": "virtualizationservice_device_test"
     }
   ]
 }
