@@ -40,6 +40,7 @@ license {
 
 rust_library {
     name: "libregex_syntax",
+    // has rustc warnings
     host_supported: true,
     crate_name: "regex_syntax",
     cargo_env_compat: true,
@@ -62,10 +63,12 @@ rust_library {
         "com.android.compos",
         "com.android.virt",
     ],
+    vendor_available: true,
 }
 
 rust_test {
     name: "regex-syntax_test_src_lib",
+    // has rustc warnings
     host_supported: true,
     crate_name: "regex_syntax",
     cargo_env_compat: true,
