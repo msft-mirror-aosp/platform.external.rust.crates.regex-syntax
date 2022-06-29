@@ -5,6 +5,9 @@
       "path": "external/rust/crates/base64"
     },
     {
+      "path": "external/rust/crates/clap"
+    },
+    {
       "path": "external/rust/crates/libsqlite3-sys"
     },
     {
@@ -25,6 +28,9 @@
   ],
   "presubmit": [
     {
+      "name": "keystore2_legacy_blobs_test"
+    },
+    {
       "name": "keystore2_test"
     },
     {
@@ -38,6 +44,9 @@
     }
   ],
   "presubmit-rust": [
+    {
+      "name": "keystore2_legacy_blobs_test"
+    },
     {
       "name": "keystore2_test"
     },
