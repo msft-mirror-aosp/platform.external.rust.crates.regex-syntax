@@ -5,7 +5,7 @@
       "path": "external/rust/crates/base64"
     },
     {
-      "path": "external/rust/crates/clap"
+      "path": "external/rust/crates/clap/2.33.3"
     },
     {
       "path": "external/rust/crates/libsqlite3-sys"
@@ -37,10 +37,13 @@
       "name": "legacykeystore_test"
     },
     {
+      "name": "libkmr_hal_test"
+    },
+    {
       "name": "regex-syntax_test_src_lib"
     },
     {
-      "name": "virtualizationservice_device_test"
+      "name": "virtualizationmanager_device_test"
     }
   ],
   "presubmit-rust": [
@@ -54,10 +57,13 @@
       "name": "legacykeystore_test"
     },
     {
+      "name": "libkmr_hal_test"
+    },
+    {
       "name": "regex-syntax_test_src_lib"
     },
     {
-      "name": "virtualizationservice_device_test"
+      "name": "virtualizationmanager_device_test"
     }
   ]
 }
